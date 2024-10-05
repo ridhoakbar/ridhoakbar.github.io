@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'gotham', sans-serif;
+    background-color: #f5fcff; /* Warna background abu lembut */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* Efek bayangan lebih dalam */
+    transition: transform 0.3s ease-in-out; /* Animasi saat hover */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #c6f0ff; /* Warna cyan untuk header */
+    color: #ffffff;
+    padding: 20px 0; /* Mengurangi padding agar lebih sederhana */
+}
+
+.profile-photo {
+    width: 350px; /* Ukuran foto lebih kecil */
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 25px;
+    border: 5px solid #ffffff; /* Border putih untuk foto */
+}
+
+h1 {
+    font-size: 28px; /* Ukuran font lebih kecil */
+    color: #002e4d;
+}
+
+.job-title {
+    font-size: 16px; /* Ukuran font lebih kecil */
+    color: #002e4d; /* Warna kuning pastel untuk job title */
+    letter-spacing: 1px;
+}
+
+
+.job-title {
+    font-size: 18px;
+    color: #002e4d; /* Warna kuning pastel untuk job title */
+    letter-spacing: 1px; /* Sedikit spasi di antara huruf */
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #dcf5ff;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #002e4d;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #002e4d; /* Garis bawah kuning pastel */
+    padding-bottom: 8px;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #000000;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+ul li {
+    color: #002e4d;
+    margin-bottom: 8px;
+}
+
+.contact-info, .education, .skills, .experience, .projects {
+    background-color: #e4f8ff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Bayangan ringan pada tiap section */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Animasi smooth pada scroll */
+html {
+    scroll-behavior: smooth;
+}
